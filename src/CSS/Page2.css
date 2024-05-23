@@ -1,0 +1,58 @@
+.page3 {
+  display: flex;
+  background: #000;
+  color: #fff;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 31px;
+  padding: 50px 25px;
+  flex-wrap: wrap;
+}
+.highlights {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  text-align: center;
+  gap: 15px;
+}
+.highlightsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.highlightsImage {
+  position: relative;
+}
+.highlightsIcon ul {
+  display: flex;
+  gap: 15px;
+}
+.highlightsIcon ul li {
+  display: flex;
+  gap: 5px;
+  font-size: 12px;
+}
+.highlightsIcon img {
+  width: 15px;
+}
+.page3 h1 {
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  transform: translate(-50%);
+  font-size: 12px;
+  width: min-content;
+  text-transform: uppercase;
+  color: #010101;
+  background: #f7fa00;
+  font-weight: bold;
+  padding: 4px 3px;
+}
+.page3 h2 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  font-family: "Gotham";
+  text-align: center;
+}

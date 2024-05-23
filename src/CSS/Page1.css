@@ -1,0 +1,83 @@
+.page1 {
+  display: flex;
+  justify-content: center;
+  gap: 31px;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  row-gap: 31px;
+}
+
+.page1 .popular {
+  width: 370px;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  gap: 25px 0;
+}
+.page1 li img,
+.post li img {
+  width: 10px;
+}
+.social-Icons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.social-Icons img {
+  width: 30px;
+}
+.facebook,
+.twitter,
+.linkedin,
+.youtube {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding-right: 50px;
+}
+.facebook h1,
+.twitter h1,
+.linkedin h1,
+.youtube h1 {
+  color: #fff;
+  font-size: 16px;
+}
+.facebook img,
+.twitter img,
+.linkedin img,
+.youtube img {
+  padding: 17px;
+}
+.facebook {
+  background: #3b5998;
+}
+.facebook img {
+  background: #5872a7;
+}
+.twitter {
+  background: #00aced;
+}
+.twitter img {
+  background: #26b8f0;
+}
+.linkedin {
+  background: #0077b5;
+}
+.linkedin img {
+  background: #0986c7;
+}
+.youtube {
+  background: #dd4b39;
+}
+.youtube img {
+  background: #e65947;
+}

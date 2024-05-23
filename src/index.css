@@ -1,0 +1,49 @@
+@media screen and (max-width: 1254px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 1176px) {
+  header {
+    background-size: cover;
+  }
+  .TopSocialMedia {
+    flex-direction: column;
+    align-items: center;
+  }
+  .page1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardColumns {
+    width: min-content;
+  }
+  .columnSection {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .posts img {
+    width: 100%;
+  }
+  .column {
+    grid: none;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 551px) {
+  .beachimg {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 465px) {
+  .links ul {
+    flex-direction: column;
+  }
+  .beachContent {
+    padding: 0;
+  }
+}
